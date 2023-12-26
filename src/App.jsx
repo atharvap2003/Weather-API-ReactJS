@@ -52,6 +52,7 @@ const App = () => {
           </div>
 
           {/* <!-- Weather Card --> */}
+          {weatherdata && (
           <div className="bg-white bg-opacity-30 p-6 rounded-md shadow-md">
             {/* <!-- Location --> */}
             <div className="text-xl font-semibold mb-4">City Name: {weatherdata && `${weatherdata.location.name}, ${weatherdata.location.region}, ${weatherdata.location.country}.`} </div>
@@ -87,7 +88,7 @@ const App = () => {
                     <p className="text-gray-500">{weatherdata.current.wind_kph}kph</p>
                   </div>
               </div>
-          </div>)
+          </div>)}
           
         </div>
       </div>
