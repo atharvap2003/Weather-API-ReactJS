@@ -1,6 +1,8 @@
 # React + Vite
 
-website is Live at: https://weather-apireactjs.netlify.app/
+website is Live at:
+
+https://weather-apireactjs.netlify.app/
 
 
 Currently, two official plugins are available:
